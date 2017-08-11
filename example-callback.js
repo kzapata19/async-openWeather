@@ -1,6 +1,6 @@
 let request = require('request');
 
-let url = 'http://api.openweathermap.org/data/2.5/weather?id=5368361&units=imperial&APPID={API key goes here}}'
+let url = 'http://api.openweathermap.org/data/2.5/weather?id=5368361&units=imperial&APPID={ API key goes here }}'
 
 request({
   url: url,
